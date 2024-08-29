@@ -9,7 +9,12 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <Link href="profile">Profile page</Link>
+            <Link to='profile/someIncorrectValueToBeHandledByProfileRenderLogic'>Default?</Link>
+            <br></br>
+            <Link to="profile/popeye">Popeye</Link>
+            <br></br>
+            <Link to="profile/spinach">Spinach</Link>
+
           </li>
         </ul>
       </nav>
